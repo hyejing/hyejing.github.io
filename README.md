@@ -1,2 +1,2 @@
-https://hyejing.github.io/main
+https://hyejing.github.io
 
