@@ -176,19 +176,20 @@ document.addEventListener('DOMContentLoaded', function() {
             const title = arg.event.title;
             const colors = arg.event.extendedProps.colors || [arg.event.backgroundColor];
             const isBirthday = arg.event.extendedProps.isBirthday;
+            const isMobile = window.innerWidth <= 600;
 
             let eventEl = document.createElement('div');
 
             // 생일 이벤트
             if (isBirthday) {
                 eventEl.style.background = '#E8B4B8';
-                eventEl.style.padding = '3px 6px';
+                eventEl.style.padding = isMobile ? '2px 4px' : '3px 6px';
                 eventEl.style.borderRadius = '4px';
                 eventEl.style.color = 'white';
-                eventEl.style.fontSize = '11px';
+                eventEl.style.fontSize = isMobile ? '8px' : '11px';
                 eventEl.style.fontWeight = '500';
                 eventEl.style.textAlign = 'center';
-                eventEl.innerText = '🎂 Birthday';
+                eventEl.innerText = isMobile ? '🎂' : '🎂 Birthday';
                 return { domNodes: [eventEl] };
             }
 
@@ -199,15 +200,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 eventEl.style.background = colors[0];
             }
 
-            eventEl.style.padding = '3px 6px';
+            eventEl.style.padding = isMobile ? '2px 3px' : '3px 6px';
             eventEl.style.borderRadius = '4px';
             eventEl.style.color = 'white';
-            eventEl.style.fontSize = '11px';
+            eventEl.style.fontSize = isMobile ? '8px' : '11px';
             eventEl.style.fontWeight = '500';
             eventEl.style.overflow = 'hidden';
             eventEl.style.textOverflow = 'ellipsis';
             eventEl.style.whiteSpace = 'nowrap';
-            eventEl.innerText = time ? `${time} ${title}` : title;
+
+            // 모바일: 제목만, PC: 시간+제목
+            if (isMobile) {
+                // 제목 축약
+                const shortTitle = title.replace('연극 ', '').replace('뮤지컬 ', '');
+                eventEl.innerText = shortTitle;
+            } else {
+                eventEl.innerText = time ? `${time} ${title}` : title;
+            }
 
             return { domNodes: [eventEl] };
         },

@@ -832,56 +832,100 @@ footer p {
 
 @media (max-width: 600px) {
     body {
-        padding: 20px 16px;
+        padding: 12px 8px;
     }
 
     .header {
-        padding: 0 0 32px 0;
+        padding: 0 0 20px 0;
     }
 
     .header .title {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .schedule-wrap {
-        gap: 16px;
+        gap: 12px;
     }
 
     .side-section {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .filter-section {
+        padding: 12px;
+    }
+
+    .filter-header h3 {
+        font-size: 12px;
+    }
+
+    .filter-list {
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .filter-item {
+        padding: 6px 8px;
     }
 
     .custom-header {
-        padding: 18px 20px;
+        padding: 14px 16px;
     }
 
     .month-title {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .nav-btn {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
     }
 
     .today-btn {
-        height: 32px;
-        padding: 0 12px;
-        font-size: 12px;
+        height: 30px;
+        padding: 0 10px;
+        font-size: 11px;
+    }
+
+    .fc-col-header-cell {
+        padding: 8px 4px;
+        font-size: 10px;
     }
 
     .fc-daygrid-day {
-        min-height: 70px;
+        min-height: 60px;
     }
 
     .fc-daygrid-day-number {
-        font-size: 12px;
-        padding: 8px 10px;
+        font-size: 11px;
+        padding: 4px 6px;
     }
 
-    .fc-event {
-        font-size: 9px !important;
-        padding: 2px 4px !important;
+    .fc-day-today .fc-daygrid-day-number {
+        width: 22px;
+        height: 22px;
+        margin: 3px;
+    }
+
+    .fc-daygrid-day-events {
+        margin-top: 0 !important;
+        max-height: 52px;
+        overflow: hidden;
+    }
+
+    .fc-event,
+    .fc-h-event {
+        font-size: 8px !important;
+        padding: 2px 3px !important;
+        margin: 0 2px 1px 2px !important;
+        border-radius: 3px !important;
+        line-height: 1.2 !important;
+    }
+
+    .fc-daygrid-event-harness {
+        margin-bottom: 1px !important;
     }
 
     .modal-content {
@@ -890,10 +934,23 @@ footer p {
     }
 
     .theme-toggle {
-        top: 16px;
-        right: 16px;
-        width: 40px;
-        height: 40px;
+        top: 12px;
+        right: 12px;
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+    }
+
+    .event-item {
+        padding: 10px;
+    }
+
+    .event-title {
+        font-size: 13px;
+    }
+
+    .event-actor {
+        font-size: 11px;
     }
 }
 
