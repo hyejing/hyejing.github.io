@@ -209,13 +209,13 @@ document.addEventListener('DOMContentLoaded', function() {
             eventEl.style.textOverflow = 'ellipsis';
             eventEl.style.whiteSpace = 'nowrap';
 
-            // 모바일: 제목만, PC: 시간+제목
+            // 제목 축약 (연극/뮤지컬 접두어 제거)
+            const shortTitle = title.replace('연극 ', '').replace('뮤지컬 ', '');
+
             if (isMobile) {
-                // 제목 축약
-                const shortTitle = title.replace('연극 ', '').replace('뮤지컬 ', '');
                 eventEl.innerText = shortTitle;
             } else {
-                eventEl.innerText = time ? `${time} ${title}` : title;
+                eventEl.innerText = time ? `${time} ${shortTitle}` : shortTitle;
             }
 
             return { domNodes: [eventEl] };
@@ -441,12 +441,15 @@ function showEventModal(date, dayEvents) {
             `<span class="event-color-dot" style="background: ${color};"></span>`
         ).join('');
 
+        // 제목 축약
+        const shortTitle = group.title.replace('연극 ', '').replace('뮤지컬 ', '');
+
         let html = `
             <div class="event-header">
                 ${colorDots}
                 <span class="event-time">${group.time || '시간 미정'}</span>
             </div>
-            <div class="event-title">${group.title}</div>
+            <div class="event-title">${shortTitle}</div>
         `;
 
         if (group.actors.length > 0) {
