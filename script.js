@@ -89,7 +89,6 @@ const events = [
     // ===== 6월 스케줄 - 나의 별 =====
     // 박세미
     { title: '연극 나의 별', actor: '박세미', start: '2026-06-02', time: '20:00', color: '#9B7BB8', memo: '' },
-    { title: '연극 나의 별', actor: '박세미', start: '2026-06-03', time: '14:00', color: '#9B7BB8', memo: '' },
     { title: '연극 나의 별', actor: '박세미', start: '2026-06-04', time: '20:00', color: '#9B7BB8', memo: '' },
     { title: '연극 나의 별', actor: '박세미', start: '2026-06-07', time: '14:00', color: '#9B7BB8', memo: '' },
     { title: '연극 나의 별', actor: '박세미', start: '2026-06-07', time: '18:00', color: '#9B7BB8', memo: '' },
