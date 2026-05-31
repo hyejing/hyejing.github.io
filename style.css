@@ -1022,7 +1022,7 @@ body,
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 15%;
+    gap: 0;
 }
 
 .scene-characters a {
@@ -1040,6 +1040,10 @@ body,
     width: 130px;
 }
 
+.scene-character.char-center {
+    width: 80px;
+}
+
 .scene-character.char-right {
     width: 130px;
 }
@@ -1055,12 +1059,16 @@ body,
 
     .scene-characters {
         bottom: 2%;
-        gap: 10%;
-        padding: 0 15%;
+        gap: 0;
+        padding: 0;
     }
 
     .scene-character.char-left,
     .scene-character.char-right {
-        width: 110px;
+        width: 100px;
+    }
+
+    .scene-character.char-center {
+        width: 60px;
     }
 }
