@@ -1043,8 +1043,18 @@ body,
 }
 
 @media (max-width: 600px) {
+    .character-scene {
+        aspect-ratio: 3 / 2;
+    }
+
+    .scene-characters {
+        bottom: 2%;
+        gap: 10%;
+        padding: 0 15%;
+    }
+
     .scene-character.char-left,
     .scene-character.char-right {
-        width: 38%;
+        width: 110px;
     }
 }
