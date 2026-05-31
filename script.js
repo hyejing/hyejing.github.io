@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
     calendar = new FullCalendar.Calendar(calendarEl, {
         headerToolbar: false,
         initialView: 'dayGridMonth',
-        initialDate: new Date('2026-05-01'),
+        initialDate: new Date(),
         locale: 'ko',
         events: getCalendarEvents(),
         height: 'auto',
