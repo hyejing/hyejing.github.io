@@ -1045,6 +1045,6 @@ body,
 @media (max-width: 600px) {
     .scene-character.char-left,
     .scene-character.char-right {
-        width: 120px;
+        width: 38%;
     }
 }

@@ -154,11 +154,6 @@ const events = [
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-01', time: '19:30', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-02', time: '19:30', color: '#D4896A', memo: '' },
 
-    // 박규리 - KARA 팬미팅
-    { title: 'KARA 팬미팅', actor: '박규리', start: '2026-07-04', time: '13:00', color: '#D4896A', memo: '일본 팬미팅' },
-    { title: 'KARA 팬미팅', actor: '박규리', start: '2026-07-04', time: '18:00', color: '#D4896A', memo: '일본 팬미팅' },
-    { title: 'KARA 팬미팅', actor: '박규리', start: '2026-07-05', time: '13:00', color: '#D4896A', memo: '일본 팬미팅' },
-    { title: 'KARA 팬미팅', actor: '박규리', start: '2026-07-05', time: '18:00', color: '#D4896A', memo: '일본 팬미팅' },
 ];
 
 // ===== 캘린더 초기화 =====
