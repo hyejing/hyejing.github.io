@@ -121,6 +121,7 @@ const events = [
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-14', time: '18:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-16', time: '20:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-18', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '연극 나의 별', actor: '전하영', start: '2026-06-19', time: '20:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-21', time: '18:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-22', time: '20:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-24', time: '20:00', color: '#5E9EA0', memo: '' },
