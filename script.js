@@ -134,7 +134,6 @@ const events = [
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-21', time: '18:00', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-22', time: '19:30', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-24', time: '19:30', color: '#D4896A', memo: '' },
-    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-25', time: '19:30', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-28', time: '14:00', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-28', time: '18:00', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-29', time: '19:30', color: '#D4896A', memo: '' },
@@ -153,7 +152,7 @@ const events = [
 
     // 박규리 - 던터치
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-01', time: '19:30', color: '#D4896A', memo: '' },
-    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-02', time: '19:30', color: '#D4896A', memo: '' },
+    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-02', time: '19:30', color: '#D4896A', memo: '막공' },
 
 ];
 
