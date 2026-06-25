@@ -134,8 +134,6 @@ const events = [
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-21', time: '18:00', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-22', time: '19:30', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-24', time: '19:30', color: '#D4896A', memo: '' },
-    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-28', time: '14:00', color: '#D4896A', memo: '' },
-    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-28', time: '18:00', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-29', time: '19:30', color: '#D4896A', memo: '' },
 
     // ===== 7월 스케줄 =====
