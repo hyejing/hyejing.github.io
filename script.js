@@ -147,6 +147,11 @@ const events = [
     { title: '연극 나의 별', actor: '전하영', start: '2026-07-04', time: '15:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-07-04', time: '19:00', color: '#5E9EA0', memo: '막공' },
 
+    // ===== 8월 스케줄 =====
+    // 박규리 - 카라
+    { title: '카라 홍콩팬미팅', actor: '박규리', start: '2026-08-08', time: '17:00', color: '#D4896A', memo: '' },
+    { title: '카라 대만팬미팅', actor: '박규리', start: '2026-08-22', time: '18:00', color: '#D4896A', memo: '' },
+
 ];
 
 // ===== 캘린더 초기화 =====
