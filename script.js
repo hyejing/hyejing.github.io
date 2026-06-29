@@ -136,6 +136,10 @@ const events = [
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-24', time: '19:30', color: '#D4896A', memo: '' },
 
     // ===== 7월 스케줄 =====
+    // 박규리 - 던터치
+    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-03', time: '19:30', color: '#D4896A', memo: '' },
+    { title: '뮤지컬 던터치', actor: '박규리', start: '2026-07-05', time: '14:00', color: '#D4896A', memo: '' },
+
     // 박세미 - 나의 별
     { title: '연극 나의 별', actor: '박세미', start: '2026-07-02', time: '20:00', color: '#9B7BB8', memo: '' },
     { title: '연극 나의 별', actor: '박세미', start: '2026-07-04', time: '15:00', color: '#9B7BB8', memo: '' },
