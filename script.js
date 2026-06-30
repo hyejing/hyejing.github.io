@@ -156,6 +156,10 @@ const events = [
     { title: '카라 홍콩팬미팅', actor: '박규리', start: '2026-08-08', time: '17:00', color: '#D4896A', memo: '' },
     { title: '카라 대만팬미팅', actor: '박규리', start: '2026-08-22', time: '18:00', color: '#D4896A', memo: '' },
 
+    // ===== 9월 스케줄 =====
+    // 박규리 - 가요톱텐
+    { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
+
 ];
 
 // ===== 캘린더 초기화 =====
