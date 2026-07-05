@@ -157,6 +157,21 @@ const events = [
     { title: '카라 대만팬미팅', actor: '박규리', start: '2026-08-22', time: '18:00', color: '#D4896A', memo: '' },
 
     // ===== 9월 스케줄 =====
+    // 박세미 - 광화문연가
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-06', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-06', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-09', time: '14:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-09', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-12', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-12', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-15', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-18', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-20', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-24', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-24', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-25', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-27', time: '14:00', color: '#9B7BB8', memo: '' },
+
     // 박규리 - 가요톱텐
     { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
 
