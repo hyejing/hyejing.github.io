@@ -773,6 +773,31 @@ body {
     transform: rotate(0deg);
 }
 
+/* 징짜 플로팅 캐릭터 */
+.floating-jingzza {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    animation: float 3s ease-in-out infinite;
+}
+
+.floating-jingzza img {
+    width: 80px;
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.floating-jingzza:hover img {
+    transform: scale(1.1) rotate(5deg);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
 [data-theme="dark"] .today-btn {
     background: #e0e0e0;
     color: #1a1a1a;
