@@ -129,6 +129,9 @@ const events = [
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-28', time: '14:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-06-28', time: '18:00', color: '#5E9EA0', memo: '' },
 
+    // 박규리 - 라디오
+    { title: '웬디의 영스트리트', actor: '박규리', start: '2026-06-04', time: '', color: '#D4896A', memo: '라디오' },
+
     // 박규리 - 던터치
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-19', time: '19:30', color: '#D4896A', memo: '' },
     { title: '뮤지컬 던터치', actor: '박규리', start: '2026-06-21', time: '18:00', color: '#D4896A', memo: '' },
