@@ -991,84 +991,43 @@ body,
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
-/* 캐릭터 씬 */
+/* 캐릭터 섹션 */
 .character-scene {
-    position: relative;
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
-    aspect-ratio: 1 / 1;
-}
-
-.scene-background-link {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.scene-background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center bottom;
-    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
 }
 
 .scene-characters {
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: stretch;
     gap: 0;
 }
 
 .scene-characters a {
-    display: inline-block;
+    flex: 1;
+    display: block;
+    overflow: hidden;
 }
 
 .scene-character {
-    height: auto;
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
-    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
     cursor: pointer;
 }
 
-.scene-character.char-left {
-    width: 130px;
-}
-
-.scene-character.char-center {
-    width: 80px;
-}
-
-.scene-character.char-right {
-    width: 130px;
-}
-
 .scene-character:hover {
-    transform: scale(1.08) translateY(-5px);
+    transform: scale(1.05);
+    filter: brightness(1.1);
 }
 
 @media (max-width: 600px) {
     .character-scene {
-        aspect-ratio: 3 / 2;
-    }
-
-    .scene-characters {
-        bottom: 2%;
-        gap: 0;
-        padding: 0;
-    }
-
-    .scene-character.char-left,
-    .scene-character.char-right {
-        width: 100px;
-    }
-
-    .scene-character.char-center {
-        width: 60px;
+        border-radius: 8px;
     }
 }
