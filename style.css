@@ -798,6 +798,12 @@ body {
     50% { transform: translateY(-10px); }
 }
 
+@media (max-width: 600px) {
+    .floating-jingzza {
+        display: none;
+    }
+}
+
 [data-theme="dark"] .today-btn {
     background: #e0e0e0;
     color: #1a1a1a;
