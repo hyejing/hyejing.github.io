@@ -16,10 +16,23 @@ function initTheme() {
 function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
     document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
+    // 시스템 설정과 같은 테마를 선택하면 저장값을 지워서 다시 시스템 설정을 따라감
+    if (newTheme === systemTheme) {
+        localStorage.removeItem('theme');
+    } else {
+        localStorage.setItem('theme', newTheme);
+    }
 }
+
+// 페이지가 열려 있는 동안 시스템 다크모드가 바뀌면 실시간 반영 (수동 설정이 없을 때만)
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+        document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+    }
+});
 
 initTheme();
 
