@@ -191,6 +191,12 @@ const events = [
     // 박규리 - 가요톱텐
     { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
 
+    // ===== 10월 스케줄 =====
+    { title: '박세미 생일', actor: '박세미', start: '2026-10-08', time: '', color: '#9B7BB8', memo: '', type: 'birthday' },
+
+    // ===== 12월 스케줄 =====
+    { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
+
 ];
 
 // ===== 캘린더 초기화 =====
@@ -387,6 +393,33 @@ const ACTOR_HEARTS = {
     '전하영': '💚'
 };
 
+// 배우의 다가오는 공연 D-day (공연별 첫공 기준, 첫공이 지난 공연은 제외)
+function getNextDday(actor) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // 공연(제목)별 첫 공연 날짜
+    const firstDates = {};
+    events.forEach(event => {
+        if (event.actor !== actor || event.type === 'birthday') return;
+        if (!firstDates[event.title] || event.start < firstDates[event.title]) {
+            firstDates[event.title] = event.start;
+        }
+    });
+
+    // 첫공이 아직 안 지난 공연 중 가장 가까운 것
+    let next = null;
+    Object.entries(firstDates).forEach(([title, start]) => {
+        const date = new Date(start + 'T00:00:00');
+        if (date < today) return;
+        if (!next || start < next.start) next = { title, start, date };
+    });
+
+    if (!next) return null;
+    const days = Math.round((next.date - today) / (1000 * 60 * 60 * 24));
+    return { title: next.title, days };
+}
+
 function updateFilterList() {
     const filterList = document.getElementById('filterList');
     const actorCounts = {};
@@ -413,8 +446,20 @@ function updateFilterList() {
         const item = document.createElement('div');
         item.className = 'filter-item' + (currentFilter === actor ? ' active' : '');
         const heart = ACTOR_HEARTS[actor] || '❤️';
+
+        // 다가오는 공연 D-day 배지 (없으면 숨김)
+        let ddayHtml = '';
+        const dday = getNextDday(actor);
+        if (dday) {
+            const shortTitle = dday.title.replace('연극 ', '').replace('뮤지컬 ', '');
+            const label = dday.days === 0 ? 'D-DAY' : `D-${dday.days}`;
+            const color = (events.find(e => e.actor === actor) || {}).color || '#999';
+            ddayHtml = `<span class="filter-dday" style="background:${color}"><span class="dday-title">${shortTitle}</span> ${label}</span>`;
+        }
+
         item.innerHTML = `
             <span class="filter-heart">${heart}</span>
+            ${ddayHtml}
             <span class="filter-count">${actorCounts[actor]}</span>
         `;
         item.addEventListener('click', () => {

@@ -219,6 +219,18 @@ body {
     background: var(--bg-primary);
     padding: 2px 6px;
     border-radius: 10px;
+    margin-left: auto;
+}
+
+/* 다가오는 공연 D-day 배지 */
+.filter-dday {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+    letter-spacing: -0.2px;
 }
 
 /* 색상 범례 */
@@ -937,6 +949,16 @@ footer p {
 
     .filter-item {
         padding: 6px 8px;
+    }
+
+    .filter-dday {
+        font-size: 9px;
+        padding: 2px 6px;
+    }
+
+    /* 모바일에서는 공연 제목 없이 D-day만 */
+    .dday-title {
+        display: none;
     }
 
     .custom-header {
