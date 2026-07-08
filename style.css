@@ -800,8 +800,21 @@ body {
 
 @media (max-width: 600px) {
     .floating-jingzza {
-        display: none;
+        bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+        left: 12px;
+        animation: float-wiggle 3.5s ease-in-out infinite;
     }
+
+    .floating-jingzza img {
+        width: 48px;
+        opacity: 0.85;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.15));
+    }
+}
+
+@keyframes float-wiggle {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-7px) rotate(4deg); }
 }
 
 [data-theme="dark"] .today-btn {
