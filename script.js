@@ -167,6 +167,9 @@ const events = [
     { title: '연극 나의 별', actor: '전하영', start: '2026-07-04', time: '15:00', color: '#5E9EA0', memo: '' },
     { title: '연극 나의 별', actor: '전하영', start: '2026-07-04', time: '19:00', color: '#5E9EA0', memo: '막공' },
 
+    // 전하영 - 우리가 사랑을 쓰던 날 (리딩공연)
+    { title: '우리가 사랑을 쓰던 날', actor: '전하영', start: '2026-07-25', time: '17:40', color: '#5E9EA0', memo: '리딩공연 · 광명시민회관 공연장' },
+
     // ===== 8월 스케줄 =====
     // 박규리 - 카라
     { title: '카라 홍콩팬미팅', actor: '박규리', start: '2026-08-08', time: '17:00', color: '#D4896A', memo: '' },
