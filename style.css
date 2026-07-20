@@ -964,11 +964,14 @@ footer p {
 
     .filter-list {
         flex-direction: row;
-        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
     }
 
     .filter-item {
-        padding: 6px 8px;
+        padding: 6px 4px;
+        gap: 6px;
     }
 
     .filter-dday {
