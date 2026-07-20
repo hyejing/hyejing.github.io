@@ -810,6 +810,32 @@ body {
     50% { transform: translateY(-10px); }
 }
 
+/* 미니게임 플로팅 버튼 */
+.floating-game {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    font-size: 40px;
+    text-decoration: none;
+    animation: float 3s ease-in-out infinite 1.5s;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.floating-game:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+@media (max-width: 600px) {
+    .floating-game {
+        bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+        right: 12px;
+        font-size: 28px;
+        opacity: 0.85;
+    }
+}
+
 @media (max-width: 600px) {
     .floating-jingzza {
         bottom: calc(12px + env(safe-area-inset-bottom, 0px));
