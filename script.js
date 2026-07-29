@@ -172,6 +172,7 @@ const events = [
 
     // ===== 8월 스케줄 =====
     // 박규리 - 카라
+    { title: '카라 대만 시구', actor: '박규리', start: '2026-08-02', time: '', color: '#D4896A', memo: '신광아시아음악제' },
     { title: '카라 홍콩팬미팅', actor: '박규리', start: '2026-08-08', time: '17:00', color: '#D4896A', memo: '' },
     { title: '카라 대만팬미팅', actor: '박규리', start: '2026-08-22', time: '18:00', color: '#D4896A', memo: '' },
 
