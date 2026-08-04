@@ -176,6 +176,9 @@ const events = [
     { title: '카라 홍콩팬미팅', actor: '박규리', start: '2026-08-08', time: '17:00', color: '#D4896A', memo: '' },
     { title: '카라 대만팬미팅', actor: '박규리', start: '2026-08-22', time: '18:00', color: '#D4896A', memo: '' },
 
+    // 박규리 - 막규리(막걸리 브랜드) 팝업스토어. end는 FullCalendar 규칙대로 종료 다음날(exclusive)
+    { title: '막규리 팝업스토어', actor: '박규리', start: '2026-08-21', end: '2026-09-11', time: '', color: '#D4896A', memo: '현대백화점 판교점 (8/21~9/10)' },
+
     // ===== 9월 스케줄 =====
     // 박세미 - 광화문연가
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-06', time: '14:00', color: '#9B7BB8', memo: '' },
@@ -339,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         dateClick: function(info) {
             const clickedDate = info.dateStr;
-            const dayEvents = events.filter(event => event.start === clickedDate);
+            const dayEvents = events.filter(event => eventOnDate(event, clickedDate));
 
             if (dayEvents.length > 0) {
                 showEventModal(clickedDate, dayEvents);
@@ -348,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         eventClick: function(info) {
             const clickedDate = info.event.startStr;
-            const dayEvents = events.filter(event => event.start === clickedDate);
+            const dayEvents = events.filter(event => eventOnDate(event, clickedDate));
 
             if (dayEvents.length > 0) {
                 showEventModal(clickedDate, dayEvents);
@@ -378,6 +381,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// 기간 일정(end 있음, exclusive)은 기간 내 모든 날짜에 매칭
+const eventOnDate = (event, date) => event.start === date || (event.end && date >= event.start && date < event.end);
+
 function getCalendarEvents() {
     let filtered = events;
     if (currentFilter) {
@@ -392,6 +398,7 @@ function getCalendarEvents() {
             grouped[key] = {
                 title: event.title,
                 start: event.start,
+                end: event.end,
                 time: event.time,
                 actors: [],
                 colors: [],
@@ -416,6 +423,7 @@ function getCalendarEvents() {
     return sortedGroups.map(group => ({
         title: group.title,
         start: group.start,
+        end: group.end,
         backgroundColor: group.colors[0] || '#D4896A',
         borderColor: group.colors[0] || '#D4896A',
         extendedProps: {
