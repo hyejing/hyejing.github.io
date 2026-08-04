@@ -1163,11 +1163,16 @@ body,
 .fc-day-sat a { color: #4A7DBF; }
 .fc-daygrid-day.holiday .fc-daygrid-day-number { color: #D64545; }
 
+/* 이름표는 absolute로 띄워서 날짜 숫자 레이아웃에 영향 없게 */
+.fc-daygrid-day-top { position: relative; }
+
 .holiday-name {
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    max-width: calc(100% - 32px);
     font-size: 9px;
     color: #D64545;
-    padding: 4px 0 0 6px;
-    margin-right: auto;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1176,6 +1181,8 @@ body,
 @media (max-width: 600px) {
     .holiday-name {
         font-size: 7px;
-        padding-left: 3px;
+        left: 2px;
+        top: 6px;
+        max-width: calc(100% - 26px);
     }
 }
