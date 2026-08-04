@@ -191,12 +191,26 @@ const events = [
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-24', time: '18:30', color: '#9B7BB8', memo: '' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-25', time: '18:30', color: '#9B7BB8', memo: '' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-27', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-29', time: '19:30', color: '#9B7BB8', memo: '' },
 
     // 박규리 - 가요톱텐
     { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
 
     // ===== 10월 스케줄 =====
     { title: '박세미 생일', actor: '박세미', start: '2026-10-08', time: '', color: '#9B7BB8', memo: '', type: 'birthday' },
+
+    // 박세미 - 광화문연가 (10월)
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-03', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-03', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-05', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-07', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-09', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-09', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-11', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-14', time: '14:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-14', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-17', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-17', time: '18:30', color: '#9B7BB8', memo: '' },
 
     // ===== 12월 스케줄 =====
     { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
