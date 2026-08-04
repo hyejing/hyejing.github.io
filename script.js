@@ -196,11 +196,11 @@ const events = [
     // 박규리 - 가요톱텐
     { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
 
-    // 전하영 - 엠버터플라이
-    { title: '뮤지컬 엠버터플라이', actor: '전하영', start: '2026-09-23', time: '20:00', color: '#5E9EA0', memo: '' },
-    { title: '뮤지컬 엠버터플라이', actor: '전하영', start: '2026-09-25', time: '15:00', color: '#5E9EA0', memo: '' },
-    { title: '뮤지컬 엠버터플라이', actor: '전하영', start: '2026-09-26', time: '14:00', color: '#5E9EA0', memo: '' },
-    { title: '뮤지컬 엠버터플라이', actor: '전하영', start: '2026-09-26', time: '18:00', color: '#5E9EA0', memo: '' },
+    // 전하영 - 엠. 버터플라이
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-23', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-25', time: '15:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-26', time: '14:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-26', time: '18:00', color: '#5E9EA0', memo: '' },
 
     // ===== 10월 스케줄 =====
     { title: '박세미 생일', actor: '박세미', start: '2026-10-08', time: '', color: '#9B7BB8', memo: '', type: 'birthday' },
