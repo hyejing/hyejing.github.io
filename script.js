@@ -221,6 +221,12 @@ const events = [
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-17', time: '14:00', color: '#9B7BB8', memo: '' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-17', time: '18:30', color: '#9B7BB8', memo: '' },
 
+    // 박규리 - 카라 일본 팬콘 (GRAND FINALE in JAPAN)
+    { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-23', time: '13:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
+    { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-23', time: '18:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
+    { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-24', time: '12:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
+    { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-24', time: '17:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
+
     // ===== 12월 스케줄 =====
     { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
 
