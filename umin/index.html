@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSTBPB2J51"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NSTBPB2J51');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>혜징 캘린더 · 유민</title>
+    <meta name="description" content="박세미 · 전하영 · 오유민 공연 스케줄을 한곳에.">
+    <meta name="keywords" content="뮤지컬, 연극, 공연, 스케줄, 캘린더, 관극, 오유민">
+    <link rel="canonical" href="https://schedule.hyejing.com/umin/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://schedule.hyejing.com/umin/">
+    <meta property="og:title" content="혜징 캘린더 · 유민">
+    <meta property="og:description" content="박세미 · 전하영 · 오유민 공연 스케줄을 한곳에.">
+    <meta property="og:locale" content="ko_KR">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/6.1.8/main.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+    <link href="../style.css" rel="stylesheet">
+
+    <!-- 다크모드 깜빡임 방지 -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else if (prefersDark) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+</head>
+<body>
+<!-- 다크모드 토글 버튼 -->
+<button class="theme-toggle" onclick="toggleTheme()" aria-label="테마 전환">
+    <span class="icon-sun">☀️</span>
+    <span class="icon-moon">🌙</span>
+</button>
+
+<!-- 징짜 캐릭터 -->
+<a href="https://www.instagram.com/jing.zza/" target="_blank" rel="noopener" class="floating-jingzza">
+    <img src="../images/jing.zza.PNG" alt="징짜">
+</a>
+
+<!-- 미니게임 링크 -->
+<a href="https://game.hyejing.com" class="floating-game" aria-label="미니게임">🎮</a>
+
+<div class="container">
+    <header class="header">
+    </header>
+
+    <div class="schedule-wrap">
+        <div class="calendar-container">
+            <div class="custom-header">
+                <div class="month-title" id="monthTitle"></div>
+                <div class="nav-buttons">
+                    <button class="nav-btn prev" id="prevBtn">‹</button>
+                    <button class="nav-btn today-btn" id="todayBtn">오늘</button>
+                    <button class="nav-btn next" id="nextBtn">›</button>
+                </div>
+            </div>
+            <div id="calendar"></div>
+        </div>
+
+        <div class="side-section">
+            <!-- 배우 필터 -->
+            <div class="filter-section">
+                <div class="filter-header">
+                    <h3>💙 💜 💚</h3>
+                    <button class="filter-reset" onclick="resetFilter()">전체보기</button>
+                </div>
+                <div class="filter-list" id="filterList">
+                    <!-- JS로 동적 생성 -->
+                </div>
+            </div>
+
+            <!-- 캐릭터 섹션 -->
+            <div class="character-scene">
+                <div class="scene-characters">
+                    <a href="https://www.instagram.com/ouminii" target="_blank" rel="noopener">
+                        <img src="../images/1_0_0_8_.jpg" alt="박세미" class="scene-character char-left">
+                    </a>
+                    <a href="https://www.instagram.com/hahh.young/" target="_blank" rel="noopener">
+                        <img src="../images/hahh.young.jpg" alt="전하영" class="scene-character char-right">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+</div>
+
+<!-- 이벤트 상세 모달 -->
+<div id="eventModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="modal-title" id="modalDate"></div>
+            <button class="close-btn" onclick="closeEventModal()"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="event-list" id="eventList"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/6.1.8/index.global.min.js"></script>
+<script>
+    // 이 페이지는 세미·하영·유민만 표시, 주인공은 유민
+    window.VISIBLE_ACTORS = ['박세미', '전하영', '오유민'];
+    window.FEATURED_ACTOR = '오유민';
+</script>
+<script src="../script.js"></script>
+</body>
+</html>

@@ -230,7 +230,16 @@ const events = [
     // ===== 12월 스케줄 =====
     { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
 
+    // ===== 오유민 =====
+    // ponytail: 일정 데이터 받는 대로 여기에 추가. 형식: { title, actor: '오유민', start, time, color: '#4A90A4', memo }
+
 ];
+
+// ===== 페이지별 표시 배우 =====
+// index.html은 전체(규리·세미·하영), umin/은 window로 지정(세미·하영·유민)
+const VISIBLE_ACTORS = window.VISIBLE_ACTORS || null;
+const FEATURED_ACTOR = window.FEATURED_ACTOR || '박규리';
+const shownEvents = VISIBLE_ACTORS ? events.filter(e => VISIBLE_ACTORS.includes(e.actor)) : events;
 
 // ===== 캘린더 초기화 =====
 document.addEventListener('DOMContentLoaded', function() {
@@ -348,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         dateClick: function(info) {
             const clickedDate = info.dateStr;
-            const dayEvents = events.filter(event => eventOnDate(event, clickedDate));
+            const dayEvents = shownEvents.filter(event => eventOnDate(event, clickedDate));
 
             if (dayEvents.length > 0) {
                 showEventModal(clickedDate, dayEvents);
@@ -357,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         eventClick: function(info) {
             const clickedDate = info.event.startStr;
-            const dayEvents = events.filter(event => eventOnDate(event, clickedDate));
+            const dayEvents = shownEvents.filter(event => eventOnDate(event, clickedDate));
 
             if (dayEvents.length > 0) {
                 showEventModal(clickedDate, dayEvents);
@@ -391,9 +400,9 @@ document.addEventListener('DOMContentLoaded', function() {
 const eventOnDate = (event, date) => event.start === date || (event.end && date >= event.start && date < event.end);
 
 function getCalendarEvents() {
-    let filtered = events;
+    let filtered = shownEvents;
     if (currentFilter) {
-        filtered = events.filter(e => e.actor === currentFilter);
+        filtered = shownEvents.filter(e => e.actor === currentFilter);
     }
 
     // 같은 날짜+시간+공연을 그룹화
@@ -469,7 +478,8 @@ function updateMonthTitle(date) {
 const ACTOR_HEARTS = {
     '박규리': '🧡',
     '박세미': '💜',
-    '전하영': '💚'
+    '전하영': '💚',
+    '오유민': '💙'
 };
 
 // 배우의 다가오는 공연 D-day (공연별 첫공 기준, 첫공이 지난 공연은 제외)
@@ -479,7 +489,7 @@ function getNextDday(actor) {
 
     // 공연(제목)별 첫 공연 날짜
     const firstDates = {};
-    events.forEach(event => {
+    shownEvents.forEach(event => {
         if (event.actor !== actor || event.type === 'birthday') return;
         if (!firstDates[event.title] || event.start < firstDates[event.title]) {
             firstDates[event.title] = event.start;
@@ -503,7 +513,7 @@ function updateFilterList() {
     const filterList = document.getElementById('filterList');
     const actorCounts = {};
 
-    events.forEach(event => {
+    shownEvents.forEach(event => {
         if (event.actor) {
             if (!actorCounts[event.actor]) {
                 actorCounts[event.actor] = 0;
@@ -514,10 +524,10 @@ function updateFilterList() {
 
     filterList.innerHTML = '';
 
-    // 박규리를 제일 위로 정렬
+    // 페이지 주인공(FEATURED_ACTOR)을 제일 위로 정렬
     const sortedActors = Object.keys(actorCounts).sort((a, b) => {
-        if (a === '박규리') return -1;
-        if (b === '박규리') return 1;
+        if (a === FEATURED_ACTOR) return -1;
+        if (b === FEATURED_ACTOR) return 1;
         return a.localeCompare(b);
     });
 
@@ -532,7 +542,7 @@ function updateFilterList() {
         if (dday) {
             const shortTitle = dday.title.replace('연극 ', '').replace('뮤지컬 ', '');
             const label = dday.days === 0 ? 'D-DAY' : `D-${dday.days}`;
-            const color = (events.find(e => e.actor === actor) || {}).color || '#999';
+            const color = (shownEvents.find(e => e.actor === actor) || {}).color || '#999';
             ddayHtml = `<span class="filter-dday" style="background:${color}"><span class="dday-title">${shortTitle}</span> ${label}</span>`;
         }
 
