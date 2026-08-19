@@ -231,7 +231,11 @@ const events = [
     { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
 
     // ===== 오유민 =====
-    // ponytail: 일정 데이터 받는 대로 여기에 추가. 형식: { title, actor: '오유민', start, time, color: '#4A90A4', memo }
+    // 까라마조프의 자매들
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-09', time: '20:00', color: '#4A90A4', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-10', time: '20:00', color: '#4A90A4', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-12', time: '17:00', color: '#4A90A4', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-13', time: '17:00', color: '#4A90A4', memo: '' },
 
 ];
 
