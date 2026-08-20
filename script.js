@@ -204,9 +204,30 @@ const events = [
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-25', time: '15:00', color: '#5E9EA0', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-26', time: '14:00', color: '#5E9EA0', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-26', time: '18:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-29', time: '20:00', color: '#5E9EA0', memo: '' },
 
     // ===== 10월 스케줄 =====
     { title: '박세미 생일', actor: '박세미', start: '2026-10-08', time: '', color: '#9B7BB8', memo: '', type: 'birthday' },
+
+    // 전하영 - 엠. 버터플라이 (10월)
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-01', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-02', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-04', time: '14:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-04', time: '18:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-08', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-09', time: '14:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-09', time: '18:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-11', time: '14:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-11', time: '18:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-13', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-15', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-17', time: '15:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-17', time: '19:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-21', time: '16:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-21', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-22', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-24', time: '15:00', color: '#5E9EA0', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-10-24', time: '19:00', color: '#5E9EA0', memo: '' },
 
     // 박세미 - 광화문연가 (10월)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-03', time: '14:00', color: '#9B7BB8', memo: '' },
