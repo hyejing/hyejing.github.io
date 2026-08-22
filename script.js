@@ -257,7 +257,17 @@ const events = [
     { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-10', time: '20:00', color: '#3B6FB6', memo: '' },
     { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-12', time: '17:00', color: '#3B6FB6', memo: '' },
     { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-13', time: '17:00', color: '#3B6FB6', memo: '' },
-
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-15', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-18', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-19', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-22', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-25', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-27', time: '17:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-27', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-30', time: '17:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-30', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-10-02', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '까라마조프의 자매들', actor: '오유민', start: '2026-10-04', time: '19:00', color: '#3B6FB6', memo: '' },
 ];
 
 // ===== 페이지별 표시 배우 =====
