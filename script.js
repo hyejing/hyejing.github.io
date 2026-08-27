@@ -268,6 +268,21 @@ const events = [
     { title: '까라마조프의 자매들', actor: '오유민', start: '2026-09-30', time: '20:00', color: '#3B6FB6', memo: '' },
     { title: '까라마조프의 자매들', actor: '오유민', start: '2026-10-02', time: '20:00', color: '#3B6FB6', memo: '' },
     { title: '까라마조프의 자매들', actor: '오유민', start: '2026-10-04', time: '19:00', color: '#3B6FB6', memo: '' },
+
+    // 오유민 - 이끼숲
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-03', time: '15:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-05', time: '15:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-07', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-08', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-11', time: '14:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-13', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-16', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-18', time: '14:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-18', time: '18:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-28', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-29', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-31', time: '15:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-01', time: '14:00', color: '#3B6FB6', memo: '' },
 ];
 
 // ===== 페이지별 표시 배우 =====
