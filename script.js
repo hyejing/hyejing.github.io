@@ -199,6 +199,9 @@ const events = [
     // 박규리 - 가요톱텐
     { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
 
+    // 박규리 - 서울패션위크 (ULKIN 2027 S/S)
+    { title: '서울패션위크', actor: '박규리', start: '2026-09-02', time: '15:00', color: '#D4896A', memo: 'ULKIN 2027 S/S · DDP 아트홀 1관' },
+
     // 전하영 - 엠. 버터플라이
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-23', time: '20:00', color: '#5E9EA0', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-09-25', time: '15:00', color: '#5E9EA0', memo: '' },
