@@ -196,6 +196,9 @@ const events = [
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-27', time: '14:00', color: '#9B7BB8', memo: '' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-09-29', time: '19:30', color: '#9B7BB8', memo: '' },
 
+    // 박규리 - 카라 서강대축제
+    { title: '카라 서강대축제', actor: '박규리', start: '2026-09-18', time: '', color: '#D4896A', memo: 'CARDINAL' },
+
     // 박규리 - 가요톱텐
     { title: '뮤지컬 가요톱텐', actor: '박규리', start: '2026-09-11', time: '', color: '#D4896A', memo: '' },
 
