@@ -262,6 +262,15 @@ const events = [
     { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-24', time: '12:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
     { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-24', time: '17:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
 
+    // ===== 11월 스케줄 =====
+    // 전하영 - 사춘기
+    { title: '사춘기', actor: '전하영', start: '2026-11-11', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-11-14', time: '15:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-11-18', time: '16:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-11-22', time: '14:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-11-25', time: '16:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-11-26', time: '20:00', color: '#5E9EA0', memo: '' },
+
     // ===== 12월 스케줄 =====
     { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
 
