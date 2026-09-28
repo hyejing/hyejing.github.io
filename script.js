@@ -256,6 +256,16 @@ const events = [
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-29', time: '19:30', color: '#9B7BB8', memo: '' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-31', time: '14:00', color: '#9B7BB8', memo: '' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-10-31', time: '18:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-03', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-05', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-06', time: '14:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-06', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-08', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-11', time: '14:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-11', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-12', time: '19:30', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-14', time: '14:00', color: '#9B7BB8', memo: '' },
+    { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-14', time: '18:30', color: '#9B7BB8', memo: '' },
 
     // 박규리 - 카라 일본 팬콘 (GRAND FINALE in JAPAN)
     { title: '카라 일본팬콘', actor: '박규리', start: '2026-10-23', time: '13:00', color: '#D4896A', memo: '요코하마 BUNTAI' },
