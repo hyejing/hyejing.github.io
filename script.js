@@ -357,6 +357,14 @@ const events = [
     { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-29', time: '20:00', color: '#3B6FB6', memo: '' },
     { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-10-31', time: '15:00', color: '#3B6FB6', memo: '' },
     { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-01', time: '14:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-06', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-07', time: '19:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-12', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-14', time: '15:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-14', time: '19:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-18', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-19', time: '20:00', color: '#3B6FB6', memo: '' },
+    { title: '뮤지컬 이끼숲', actor: '오유민', start: '2026-11-22', time: '18:00', color: '#3B6FB6', memo: '' },
 ];
 
 // ===== 페이지별 표시 배우 =====
