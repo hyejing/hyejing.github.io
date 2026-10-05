@@ -303,6 +303,9 @@ const events = [
     { title: '엠버터플라이', actor: '전하영', start: '2026-11-21', time: '15:00', color: '#5E9EA0', memo: '' },
     { title: '엠버터플라이', actor: '전하영', start: '2026-11-21', time: '19:00', color: '#5E9EA0', memo: '' },
 
+    // 전하영 - 금희악기점
+    { title: '뮤지컬 금희악기점', actor: '전하영', start: '2026-11-23', time: '20:00', color: '#5E9EA0', memo: '일지아트홀' },
+
     // 박세미 - 광화문연가 (지방 투어)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-21', time: '14:00', color: '#9B7BB8', memo: '부산' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-21', time: '18:30', color: '#9B7BB8', memo: '부산' },
