@@ -313,6 +313,14 @@ const events = [
     // ===== 12월 스케줄 =====
     { title: '전하영 생일', actor: '전하영', start: '2026-12-12', time: '', color: '#5E9EA0', memo: '', type: 'birthday' },
 
+    // 전하영 - 사춘기
+    { title: '사춘기', actor: '전하영', start: '2026-12-01', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-06', time: '14:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-10', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-11', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-16', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-20', time: '18:00', color: '#5E9EA0', memo: '' },
+
     // 박세미 - 광화문연가 (지방 투어)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-12-05', time: '14:00', color: '#9B7BB8', memo: '대구' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-12-05', time: '18:30', color: '#9B7BB8', memo: '대구' },
