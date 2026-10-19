@@ -321,7 +321,7 @@ const events = [
     { title: '사춘기', actor: '전하영', start: '2026-12-06', time: '14:00', color: '#5E9EA0', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-10', time: '20:00', color: '#5E9EA0', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-11', time: '20:00', color: '#5E9EA0', memo: '' },
-    { title: '사춘기', actor: '전하영', start: '2026-12-16', time: '20:00', color: '#5E9EA0', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-16', time: '16:00', color: '#5E9EA0', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-20', time: '18:00', color: '#5E9EA0', memo: '' },
 
     // 박세미 - 광화문연가 (지방 투어)
