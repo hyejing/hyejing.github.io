@@ -309,6 +309,10 @@ const events = [
     // 전하영 - 정찬콘 Vol.1 쓰다
     { title: '정찬콘 Vol.1 쓰다', actor: '전하영', start: '2026-11-12', time: '', color: '#79A84E', memo: '브릭스씨어터' },
 
+    // 전하영 - 소금빌레 (리딩 쇼케이스)
+    { title: '뮤지컬 소금빌레', actor: '전하영', start: '2026-11-27', time: '16:00', color: '#79A84E', memo: '서울숲씨어터 2관' },
+    { title: '뮤지컬 소금빌레', actor: '전하영', start: '2026-11-29', time: '19:00', color: '#79A84E', memo: '서울숲씨어터 2관' },
+
     // 박세미 - 광화문연가 (지방 투어)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-21', time: '14:00', color: '#9B7BB8', memo: '부산' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-11-21', time: '18:30', color: '#9B7BB8', memo: '부산' },
