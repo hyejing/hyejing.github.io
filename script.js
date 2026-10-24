@@ -302,6 +302,10 @@ const events = [
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-20', time: '20:00', color: '#79A84E', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-21', time: '15:00', color: '#79A84E', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-21', time: '19:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-24', time: '20:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-27', time: '20:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-28', time: '15:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-28', time: '19:00', color: '#79A84E', memo: '' },
 
     // 전하영 - 금희악기점
     { title: '뮤지컬 금희악기점', actor: '전하영', start: '2026-11-23', time: '20:00', color: '#79A84E', memo: '일지아트홀' },
@@ -327,6 +331,18 @@ const events = [
     { title: '사춘기', actor: '전하영', start: '2026-12-11', time: '20:00', color: '#79A84E', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-16', time: '16:00', color: '#79A84E', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-20', time: '18:00', color: '#79A84E', memo: '' },
+
+    // 전하영 - 엠. 버터플라이
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-02', time: '16:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-02', time: '20:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-04', time: '20:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-05', time: '15:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-05', time: '19:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-08', time: '20:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-09', time: '16:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-09', time: '20:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-13', time: '14:00', color: '#79A84E', memo: '' },
+    { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-13', time: '18:00', color: '#79A84E', memo: '막공' },
 
     // 박세미 - 광화문연가 (지방 투어)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-12-05', time: '14:00', color: '#9B7BB8', memo: '대구' },
