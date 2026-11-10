@@ -337,6 +337,8 @@ const events = [
     { title: '사춘기', actor: '전하영', start: '2026-12-11', time: '20:00', color: '#79A84E', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-16', time: '16:00', color: '#79A84E', memo: '' },
     { title: '사춘기', actor: '전하영', start: '2026-12-20', time: '18:00', color: '#79A84E', memo: '' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-23', time: '20:00', color: '#79A84E', memo: '사인회' },
+    { title: '사춘기', actor: '전하영', start: '2026-12-26', time: '19:00', color: '#79A84E', memo: '사인회' },
 
     // 전하영 - 엠. 버터플라이
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-02', time: '16:00', color: '#79A84E', memo: '' },
@@ -361,6 +363,12 @@ const events = [
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-12-27', time: '18:30', color: '#9B7BB8', memo: '세종예술의전당' },
 
     // ===== 2027년 1월 스케줄 =====
+    // 전하영 - 사춘기
+    { title: '사춘기', actor: '전하영', start: '2027-01-02', time: '15:00', color: '#79A84E', memo: '페어폴라데이' },
+    { title: '사춘기', actor: '전하영', start: '2027-01-03', time: '14:00', color: '#79A84E', memo: '페어폴라데이' },
+    { title: '사춘기', actor: '전하영', start: '2027-01-06', time: '16:00', color: '#79A84E', memo: '멜로디카드 증정' },
+    { title: '사춘기', actor: '전하영', start: '2027-01-10', time: '14:00', color: '#79A84E', memo: '멜로디카드 증정' },
+
     // 박세미 - 광화문연가 (지방 투어)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2027-01-03', time: '14:00', color: '#9B7BB8', memo: '수원 경기아트센터' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2027-01-03', time: '18:30', color: '#9B7BB8', memo: '수원 경기아트센터' },
