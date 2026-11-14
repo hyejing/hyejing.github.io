@@ -297,9 +297,6 @@ const events = [
     // 박규리 - KGMA 시상자
     { title: 'KGMA', actor: '박규리', start: '2026-11-07', time: '', color: '#D4896A', memo: '고척스카이돔 · 시상자' },
 
-    // 박규리 - 카라 마카오 팬미팅
-    { title: '카라 마카오 팬미팅', actor: '박규리', start: '2026-11-28', time: '', color: '#D4896A', memo: 'Broadway Theatre, Macau' },
-
     // 전하영 - 엠. 버터플라이
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-04', time: '16:00', color: '#79A84E', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-11-04', time: '20:00', color: '#79A84E', memo: '' },
