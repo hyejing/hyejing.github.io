@@ -355,6 +355,9 @@ const events = [
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-13', time: '14:00', color: '#79A84E', memo: '' },
     { title: '뮤지컬 엠. 버터플라이', actor: '전하영', start: '2026-12-13', time: '18:00', color: '#79A84E', memo: '막공' },
 
+    // 전하영 - 소현, 새벽을 연 자 (리딩공연)
+    { title: '뮤지컬 소현, 새벽을 연 자', actor: '전하영', start: '2026-12-30', time: '19:30', color: '#79A84E', memo: '리딩공연 · 백암아트홀' },
+
     // 박세미 - 광화문연가 (지방 투어)
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-12-05', time: '14:00', color: '#9B7BB8', memo: '대구' },
     { title: '뮤지컬 광화문연가', actor: '박세미', start: '2026-12-05', time: '18:30', color: '#9B7BB8', memo: '대구' },
